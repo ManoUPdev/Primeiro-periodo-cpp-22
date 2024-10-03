@@ -10,5 +10,8 @@ int main() {
     std::cin >> pavorosos;
 
     int pontos = (feios * 1) + (muito_feios * 5) + (pavorosos * 10);
-    double ponto_com_bonus = pontos 
+    double ponto_com_bonus = pontos + (pontos * 0.10);
+
+    std::cout << "Pontos totais (com bonus): " << ponto_com_bonus << std::endl;
+    return 0;
 }
