@@ -11,7 +11,4 @@ int main () {
 	std::cout << "Beijo: :-*" << std::endl;
 	return 0;
 	
-	
-	
-	
 }

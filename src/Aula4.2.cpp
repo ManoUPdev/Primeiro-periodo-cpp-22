@@ -7,5 +7,6 @@ int main() {
     std::cout << "Notas do aluno: " << std::endl;
     std::cout << "N1: " << N1 << ", N2: " << N2 << ", N3: " << N3 << ", N4: " << N4 << std::endl;
     std::cout << "Media ponderada: " << media << std::endl;
+    
     return 0;
 }

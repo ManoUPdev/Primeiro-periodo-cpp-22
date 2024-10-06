@@ -13,5 +13,6 @@ int main() {
 	B = temp;
 	
 	std::cout << "Agora, A = " << A << " B = " << B << std::endl;
+	
 	return 0;
 }

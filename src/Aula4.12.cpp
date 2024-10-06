@@ -5,7 +5,8 @@ int main() {
     std::cout << "Digite a temperatura em Fahrenheit: ";
     std::cin >> F;
 
-    C = 5.0 / 9.0 "Temperatura em Celsius: " << c << std::endl;
+    C = 5.0 / 9.0 * (F - 32);
+    std::cout << "Temperatura em Celsius: " << C << std::endl;
 
     return 0;
 }

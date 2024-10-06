@@ -15,7 +15,7 @@ int main() {
 
     salario = horas_trabalhadas * valor_por_hora;
 
-    std::cout << "O salario do funcionario " << num_funcionario << "e: " << salario << std::endl;
+    std::cout << "O salario do funcionario " << num_funcionario << " e: " << salario << std::endl;
     
     return 0; 
 }

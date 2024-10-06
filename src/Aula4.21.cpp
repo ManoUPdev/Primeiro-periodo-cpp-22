@@ -3,7 +3,7 @@
 int main() {
     double valor, taxa, dias, prestacao;
 
-    std::cout << "Digite o valor da prestacao: "  
+    std::cout << "Digite o valor da prestacao: ";  
     std::cin >> valor;
 
     std::cout << "Digite a taxa de atraso (%): ";  

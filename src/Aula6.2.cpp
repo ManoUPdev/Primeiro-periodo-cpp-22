@@ -3,19 +3,40 @@
 #include <ctime>
 
 int main() {
-    sprand(static_cast<unsigned int>(time(0))); // Semente para numeros aleatorios
+    srand(static_cast<unsigned int>(time(0))); // Semente para números aleatórios
 
     int num1 = rand() % 100;
     int num2 = rand() % 100;
-    int operação = rand() % 4; //0 - 1 -subtracao, 2 - multiplicacao, 3 - divisao
+    int operacao = rand() % 4; // 0 - soma, 1 - subtração, 2 - multiplicação, 3 - divisão
 
-    std::cout <<"Bem-vindo ao Calculator Tabajara!!" << std::endl;
+    std::cout << "Bem-vindo ao Calculator Tabajara!!" << std::endl;
 
-    if (operação == 0) {
+    if (operacao == 0) {
         std::cout << "Qual o resultado para " << num1 << " + " << num2 << " ?" << std::endl;
-    } else if (operação == 1) {
-        std::cout << "Qual o resultado para" << num1 << " - " << num2 << " ?" << std::endl;
-    } else if (operação == 2) {
-        std::cout << "Qual o "
+    } else if (operacao == 1) {
+        std::cout << "Qual o resultado para " << num1 << " - " << num2 << " ?" << std::endl;
+    } else if (operacao == 2) {
+        std::cout << "Qual o resultado para " << num1 << " * " << num2 << " ?" << std::endl;
+    } else {
+        // Evitar divisão por zero
+        if (num2 == 0) num2 = 1; 
+        std::cout << "Qual o resultado para " << num1 << " / " << num2 << " ?" << std::endl;
     }
+
+    int resposta;
+    std::cin >> resposta;
+
+    int resultado;
+    if (operacao == 0) resultado = num1 + num2;
+    else if (operacao == 1) resultado = num1 - num2;
+    else if (operacao == 2) resultado = num1 * num2;
+    else resultado = num1 / num2;
+
+    if (resposta == resultado) {
+        std::cout << "Correto! Muito bem!" << std::endl;
+    } else {
+        std::cout << "Incorreto! O resultado correto é " << resultado << "." << std::endl;
+    }
+
+    return 0;
 }

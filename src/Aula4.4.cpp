@@ -13,5 +13,6 @@ int main() {
     double ponto_com_bonus = pontos + (pontos * 0.10);
 
     std::cout << "Pontos totais (com bonus): " << ponto_com_bonus << std::endl;
+    
     return 0;
 }

@@ -11,10 +11,14 @@ int main() {
     std::cout << "Diferenca: " << num1 - num2 << std::endl;
     std::cout << "Produto: " << num1 * num2 << std::endl;
     if(num2 != 0) {
-        std::cout <<"Divisao: " << num1 / num2 << std::endl;
+    std::cout <<"Divisao: " << num1 / num2 << std::endl;
+    
     } else {
-        std::cout << "Erro: Divisao por zero nao e permitida." << std::endl;;
+
+    std::cout << "Erro: Divisao por zero nao e permitida." << std::endl;
+
 }
-return 0;
+
+    return 0;
 
 }

@@ -10,5 +10,6 @@ int main () {
 	//Adicione suas proprias frases
 	std::cout << "Voce vai fracassar." << std::endl;
 	std::cout << "Isso e uma perda de tempo." << std::endl;
+	
 	return 0;
 }

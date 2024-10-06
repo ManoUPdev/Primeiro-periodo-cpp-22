@@ -12,5 +12,6 @@ int main() {
     double media = (nota1 + nota2 + nota3) / 3.0;
 
     std::cout << "A media aritmetica e: " << media << std::endl;
+    
     return 0;
 }

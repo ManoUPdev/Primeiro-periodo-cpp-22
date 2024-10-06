@@ -8,5 +8,6 @@ int main() {
         soma += num;
     }
     std::cout << "A soma dos numeros e: " << soma << std::endl;
+    
     return 0;
 }
