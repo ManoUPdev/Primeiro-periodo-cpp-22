@@ -35,7 +35,7 @@ int main() {
     if (resposta == resultado) {
         std::cout << "Correto! Muito bem!" << std::endl;
     } else {
-        std::cout << "Incorreto! O resultado correto é " << resultado << "." << std::endl;
+        std::cout << "Incorreto! O resultado correto e " << resultado << "." << std::endl;
     }
 
     return 0;

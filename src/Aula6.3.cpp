@@ -3,11 +3,11 @@
 int main() {
     int A, B, C;
 
-    std::cout << "Digite o valor de A:"
+    std::cout << "Digite o valor de A: ";
     std::cin  >> A;
-    std::cout << "Digite o valor de B"
+    std::cout << "Digite o valor de B: ";
     std::cin  >> B;
-    std::cout << "Digite o valor de C"
+    std::cout << "Digite o valor de C: ";
     std::cin  >> C;
 
     int R = (A + B) * (A + B); // R = (A + B)^2

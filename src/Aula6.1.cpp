@@ -3,7 +3,7 @@
 #include <ctime>
 
 int main () {
-    spand(static_cast<unsigned int>(time(0))); //Semente para numeros aleatorios
+    srand(static_cast<unsigned int>(time(0))); //Semente para numeros aleatorios
 
     int num1 = rand() % 100; //Numero aleatorio entre 0 a 99
     int num2 = rand() % 100; //Numero aleatorio entre 0 a 99
@@ -17,7 +17,7 @@ int main () {
     if (resposta == num1 + num2) {
         std::cout << "Correto! Muito bem!" << std::endl;
     } else {
-        std::cout << "Incorreto! O resultado correto e" << (num1 + num2) << "." << std::endl;
+        std::cout << "Incorreto! O resultado correto e " << (num1 + num2) << "." << std::endl;
 }
 
 return 0;
