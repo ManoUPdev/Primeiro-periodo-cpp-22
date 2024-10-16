@@ -14,6 +14,21 @@ int main() {
     for (int i = 1; i <= termos; i++) {
         soma2 += static_cast<float>(i) / (i * i);
     }
+
+    // 1 - 2 + 3 - 4 + 5 - 6 +...
+    for(int i = 1; i <= termos; i++) {
+     if(i % 2 == 0) {
+        soma3 -= i;
+     } else{
+        soma3 += i;
+     }
     
+  }
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "Soma da serie 1: " << soma1 << std::endl;
+    std::cout << "Soma da serie 2: " << soma2 << std::endl;
+    std::cout << "Soma da serie 3: " << soma3 << std::endl;
+
+    return 0;
 }
     
