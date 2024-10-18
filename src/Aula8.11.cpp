@@ -1,6 +1,6 @@
 #include <iostream>
 
-unsigned long long fatorial(int i) {
+unsigned long long fatorial(int n) {
     unsigned long long resultado = 1;
     for(int i = 1; i <= n; i++) {
         resultado *= i;
@@ -29,4 +29,5 @@ int main() {
 
     return 0;
 
-    }
+}
+

@@ -28,8 +28,10 @@ int main() {
     } else if (moedaDesejada == 'P') {
         std::cout << valorEmCobre / 50 << " moedas de prata." << std::endl;
     } else if (moedaDesejada == 'C') {
-        std::cout << valorEmCobre << " moedas de cobre." << std::endl;
+        std::cout << valorEmCobre  << " moedas de cobre." << std::endl;
     }
 
     return 0;
 }
+
+

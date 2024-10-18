@@ -8,3 +8,4 @@ int main() {
     std::cout << "A soma dos numeros impares entre 1 e 100 e: " << soma << std::endl;
     return 0;
 }
+

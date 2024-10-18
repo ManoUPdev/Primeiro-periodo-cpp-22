@@ -9,7 +9,7 @@ int main() {
 
     caractere = std::tolower(caractere);//Coverte para minusculo para simplificar a verificacao
 
-    if (caractere >= 'a' && || caractere <= 'z') {
+    if (caractere >= 'a' &&  caractere <= 'z') {
         if(caractere == 'a' || caractere == 'e' || caractere == 'i' || caractere == 'o' || caractere == 'u') {
             std::cout << "O caractere e uma vogal." << std::endl;
         } else {
@@ -22,3 +22,4 @@ int main() {
  
     return 0;
 }
+

@@ -3,7 +3,7 @@
 int main() {
     int numero;
 
-    std::cout << "Digite um numero ";
+    std::cout << "Digite um numero: ";
     std::cin >> numero;
 
     if (numero % 5 == 0) {
@@ -14,3 +14,4 @@ int main() {
 
     return 0;
 }
+

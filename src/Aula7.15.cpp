@@ -12,10 +12,11 @@ int main() {
     if (receita > despesa) {
         std::cout << "A firma teve lucro." << std::endl;
     } else if (receita < despesa) {
-        std::cout << "A firma teve prejuízo." << std::endl;
+        std::cout << "A firma teve prejuizo." << std::endl;
     } else {
-        std::cout << "A firma não teve lucro nem prejuizo (empate)." << std::endl;
+        std::cout << "A firma nao teve lucro nem prejuizo (empate)." << std::endl;
     }
 
     return 0;
 }
+

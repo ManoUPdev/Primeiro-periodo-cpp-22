@@ -8,3 +8,4 @@ int main() {
     std::cout << "A soma de todos os numeros entre 1 e 100 e: " << soma << std::endl;
     return 0;
 }
+

@@ -9,7 +9,7 @@ int main() {
     std::cout << "Digite o valor em reais: ";
     std::cin >> valorReais;
 
-    std::cout << "Digite o tipo de moeda para conversão (1 para Dólar, 2 para Euro): ";
+    std::cout << "Digite o tipo de moeda para conversão (1 para Dolar, 2 para Euro): ";
     std::cin >> tipoMoeda;
 
     if (tipoMoeda == 1) {
@@ -24,3 +24,4 @@ int main() {
 
     return 0;
 }
+

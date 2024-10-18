@@ -7,10 +7,10 @@ int main() {
     std::cout << "Digite a sua idade: ";
     std::cin >> idade;
 
-    std::cout << "Voce e universitario? (S para Sim, N para Não): ";
+    std::cout << "Voce e universitario? (S para Sim, N para Nao): ";
     std::cin >> universitario;
 
-    std::cout << "Voce tem conhecimentos de ingles? (S para Sim, N para Não): ";
+    std::cout << "Voce tem conhecimentos de ingles? (S para Sim, N para Nao): ";
     std::cin >> ingles;
 
     if (idade > 18 && (universitario == 'S' || universitario == 's') && (ingles == 'S' || ingles == 's')) {
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+

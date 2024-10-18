@@ -7,12 +7,13 @@ int main() {
     std::cin >> numero;
 
     if (numero > 0) {
-        std::cout << "O número e positivo." << std::endl;
+        std::cout << "O numero e positivo." << std::endl;
     } else if (numero < 0) {
-        std::cout << "O número e negativo." << std::endl;
+        std::cout << "O numero e negativo." << std::endl;
     } else {
-        std::cout << "O número e zero." << std::endl;
+        std::cout << "O numero e zero." << std::endl;
     }
 
     return 0;
 }
+
